@@ -57,8 +57,7 @@ wordlist=[
 	"which",
 	"world",
 	"would",
-	"write",
-	"testw"
+	"write"
 ]
 
 
@@ -68,3 +67,4 @@ print "\n"
 if len(list([e for e in combinations if "".join(e) in wordlist]))!=0:print ["[WP] Found Word \""+str("".join(x))+"\"" for x in combinations if "".join(x) in wordlist][0]
 else: print "[WP] No Word Found"
 print "\n"
+
